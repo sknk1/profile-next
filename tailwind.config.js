@@ -11,8 +11,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'header-gray-1': '#555555',
-        'header-gray-2': '#151515'
+        'gray-light-custom': '#555555',
+        'gray-custom': '#151515',
+        'yellow-custom': '#FDB827'
       }
     },
   },
