@@ -27,12 +27,12 @@ export default function IndexPage() {
 
       <section id="all-content-section" className="mb-14 overflow-hidden">
         {/* Home Section */}
-        <section id="home-section">
+        <section id="home-section" className="relative px-3">
           <Home />
         </section>
 
         {/* About Section */}
-        <section id="about-section">
+        <section id="about-section" className="px-10 lg:px-20">
           <About />
         </section>
 

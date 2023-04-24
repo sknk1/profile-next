@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="container relative m-auto flex h-screen flex-col flex-wrap items-center justify-center gap-7 px-3 text-center md:gap-10">
+      <div className="container relative m-auto flex h-screen flex-col flex-wrap items-center justify-center gap-7 text-center md:gap-10">
         <h1 className="font-bold leading-snug">
           Hey there 👋
           <br />I am Gregorius
@@ -24,14 +24,14 @@ export default function Home() {
             😮 Let’s see portfolios
           </a>
         </div>
-        <div className="absolute hidden md:-right-7 md:block md:h-[250px] md:w-[250px]  lg:h-[300px] lg:w-[300px] xl:-right-28 xl:h-[500px] xl:w-[500px]">
-          <Image
-            className="object-cover"
-            src="/images/home-hand.png"
-            alt="home-hand-image"
-            fill
-          />
-        </div>
+      </div>
+      <div className="absolute bottom-1/2 right-0 hidden translate-x-0 translate-y-1/2 transform md:block md:h-[250px] md:w-[250px] lg:h-[300px] lg:w-[300px] xl:h-[500px] xl:w-[500px]">
+        <Image
+          className="object-cover"
+          src="/images/home-hand.png"
+          alt="home-hand-image"
+          fill
+        />
       </div>
     </>
   );

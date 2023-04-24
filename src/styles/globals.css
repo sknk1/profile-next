@@ -3,28 +3,63 @@
 @tailwind utilities;
 
 @layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+
+  @screen md {
     h1 {
-        @apply text-4xl;
+      @apply text-5xl;
     }
     h2 {
-        @apply text-3xl;
+      @apply text-4xl;
     }
+  }
 
-    @screen md {
-        h1 {
-            @apply text-6xl;
-        }
-        h2 {
-            @apply text-5xl;
-        }
+  @screen lg {
+    h1 {
+      @apply text-6xl;
     }
-    
+    h2 {
+      @apply text-5xl;
+    }
+  }
 }
 
 @layer components {
+  .profile-image {
+    width: 230px !important;
+    height: 230px !important;
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
 
+  #about-section {
+    scroll-margin-block-start: 50px;
+  }
+
+  @screen md {
+    #about-section {
+      scroll-margin-block-start: 100px;
+    }
+  }
+
+  @screen lg {
+    .profile-image {
+      width: 280px !important;
+      height: 280px !important;
+    }
+
+    #about-section {
+      scroll-margin-block-start: 0px;
+    }
+  }
 }
 
 @layer utilities {
-
 }
