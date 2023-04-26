@@ -9,6 +9,9 @@
   h2 {
     @apply text-3xl;
   }
+  p {
+    @apply text-base;
+  }
 
   @screen md {
     h1 {
@@ -39,8 +42,8 @@
     transform: translate(-50%, -50%) !important;
   }
 
-  #about-section {
-    scroll-margin-block-start: 50px;
+  #about-section, #contact-section {
+    scroll-margin-block-start: 0;
   }
 
   @screen md {
@@ -51,14 +54,22 @@
 
   @screen lg {
     .profile-image {
-      width: 280px !important;
-      height: 280px !important;
+      width: 270px !important;
+      height: 270px !important;
     }
 
-    #about-section {
-      scroll-margin-block-start: 0px;
+    #about-section, #contact-section {
+      scroll-margin-block-start: 1rem;
     }
   }
+
+  @screen xl {
+    .profile-image {
+      width: 330px !important;
+      height: 330px !important;
+    }
+  }
+
 }
 
 @layer utilities {

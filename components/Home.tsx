@@ -15,12 +15,15 @@ export default function Home() {
         </p>
         <div className="flex flex-col gap-5 md:flex-row">
           <a
-            href="#"
+            href="#about-section"
             className="rounded bg-yellow-custom px-4 py-3 font-bold text-black"
           >
             About me
           </a>
-          <a href="#" className="rounded bg-gray-custom px-4 py-3 font-bold">
+          <a
+            href="#portofolios-section"
+            className="rounded bg-gray-custom px-4 py-3 font-bold"
+          >
             😮 Let’s see portfolios
           </a>
         </div>
