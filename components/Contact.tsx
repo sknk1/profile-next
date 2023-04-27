@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <>
-      <div className="container mx-auto flex flex-row flex-wrap">
+      <div className="container mx-auto flex min-h-screen flex-row flex-wrap">
         <div className="flex w-full flex-col gap-10 lg:w-2/3">
           <h1 className="text-center font-bold leading-tight lg:text-left lg:leading-snug">
-            You can reach me any time🙂{" "}
+            You can reach me any time🙂
           </h1>
           <div className="flex flex-col gap-5">
             <p>
