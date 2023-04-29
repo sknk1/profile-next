@@ -9,21 +9,17 @@ export default function Home() {
           <br />I am Gregorius
         </h1>
         <p className="w-2/3 md:w-2/5">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
-          omnis pariatur, ex id, illum repellat commodi perferendis deserunt
-          debitis inventore odio aut quod dolorem nostrum a ad iste, quam sunt.
+          I'm enthusiastic about tech in coding and learning new things about
+          computers and what they can do.
+          <br />
+          In my free time, I enjoy reading 📖 articles and try exploring new
+          coding tech.
         </p>
         <div className="flex flex-col gap-5 md:flex-row">
-          <a
-            href="#about-section"
-            className="rounded bg-yellow-custom px-4 py-3 font-bold text-black"
-          >
+          <a href="#about-section" className="custom-button-1">
             About me
           </a>
-          <a
-            href="#portofolios-section"
-            className="rounded bg-gray-custom px-4 py-3 font-bold"
-          >
+          <a href="#portofolios-section" className="custom-button-2">
             😮 Let’s see portfolios
           </a>
         </div>

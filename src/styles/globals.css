@@ -62,6 +62,14 @@
     -webkit-box-orient: vertical;
   }
 
+  .custom-button-1{
+    @apply rounded bg-yellow-custom px-4 py-3 font-bold text-black transition-all hover:scale-110;
+  }
+
+  .custom-button-2{
+    @apply rounded bg-gray-custom px-4 py-3 font-bold transition-all hover:scale-110;
+  }
+
   @screen md {
     #about-section {
       scroll-margin-block-start: 100px;

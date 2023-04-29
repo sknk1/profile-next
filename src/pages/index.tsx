@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Home from "../../components/Home";
-import About from "../../components/About";
-import Contact from "../../components/Contact";
-import Portofolios from "../../components/Portofolios";
+import Header from "../../components/pages/Header";
+import Footer from "../../components/pages/Footer";
+import Home from "../../components/pages/Home";
+import About from "../../components/pages/About";
+import Contact from "../../components/pages/Contact";
+import Portofolios from "../../components/pages/Portofolios";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function IndexPage() {
 
       <Header />
 
-      <section id="all-content-section" className="mb-14 block">
+      <section className="mb-14 block">
         {/* Home Section */}
         <section id="home-section" className="relative px-3">
           <Home />

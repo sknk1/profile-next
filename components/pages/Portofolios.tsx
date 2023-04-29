@@ -1,6 +1,13 @@
 import Image from "next/image";
 
 export default function Portofolios() {
+  const portoData = [
+    {
+      id: 1,
+      name: "",
+    },
+  ];
+
   return (
     <>
       <div className="container mx-auto flex min-h-screen flex-col gap-10 ">
