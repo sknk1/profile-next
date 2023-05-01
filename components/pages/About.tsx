@@ -67,7 +67,7 @@ export default function About() {
 
   return (
     <>
-      <div className="container m-auto flex flex-col justify-center gap-10 xl:h-screen">
+      <div className="container m-auto flex flex-col justify-center gap-10">
         <div className="flex flex-row flex-wrap items-center justify-center gap-10 lg:gap-0">
           <div className="relative w-full lg:w-1/3">
             <div className="m-auto h-[250px] w-[250px] rounded-full bg-yellow-custom lg:h-[280px] lg:w-[280px] xl:h-[350px] xl:w-[350px]"></div>
@@ -81,8 +81,8 @@ export default function About() {
           <div className="w-full lg:w-2/3 lg:px-10">
             <h1 className="text-center font-bold leading-tight lg:text-left lg:leading-snug">
               I’m Gregorius Ricky Yuuki
-              <span className="text-yellow-custom"> Bakcend </span> and
-              <span className="text-yellow-custom"> Frontend </span>
+              <span className="text-yellow-custom"> Back End </span> and
+              <span className="text-yellow-custom"> Front End </span>
               Developer
             </h1>
           </div>
@@ -97,11 +97,11 @@ export default function About() {
                 <div key={data.id}>
                   <p className="pb-2 text-2xl font-bold">{data.name}</p>
                   <p className="pb-1">{data.desc}</p>
-                  <ul className="pb-1">
+                  {/* <ul className="pb-1">
                     {data.achievement.map((data) => {
                       return <li key={data}>{`- ${data}`}</li>;
                     })}
-                  </ul>
+                  </ul> */}
                   <p className="pb-1">
                     <span className="font-bold">Skills</span> :
                     {data.skills.map((data) => {

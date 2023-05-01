@@ -17,45 +17,47 @@ export default function Contact() {
             </p>
             <div>
               <table>
-                <tr>
-                  <td>LinkedIn</td>
-                  <td>:</td>
-                  <td>
-                    <a
-                      href="https://www.linkedin.com/in/gregorius-yuuki/"
-                      target="_blank"
-                      className="transition-all hover:text-yellow-custom"
-                    >
-                      <i className="lab la-linkedin text-3xl"></i>
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Github</td>
-                  <td>:</td>
-                  <td>
-                    <a
-                      href="https://github.com/sknk1"
-                      target="_blank"
-                      className="transition-all hover:text-yellow-custom"
-                    >
-                      <i className="lab la-github text-3xl"></i>
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Instagram</td>
-                  <td>:</td>
-                  <td>
-                    <a
-                      href="https://github.com/sknk1"
-                      target="_blank"
-                      className="transition-all hover:text-yellow-custom"
-                    >
-                      <i className="lab la-instagram text-3xl"></i>
-                    </a>
-                  </td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td>LinkedIn</td>
+                    <td>:</td>
+                    <td>
+                      <a
+                        href="https://www.linkedin.com/in/gregorius-yuuki/"
+                        target="_blank"
+                        className="transition-all hover:text-yellow-custom"
+                      >
+                        <i className="lab la-linkedin text-3xl"></i>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Github</td>
+                    <td>:</td>
+                    <td>
+                      <a
+                        href="https://github.com/sknk1"
+                        target="_blank"
+                        className="transition-all hover:text-yellow-custom"
+                      >
+                        <i className="lab la-github text-3xl"></i>
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Instagram</td>
+                    <td>:</td>
+                    <td>
+                      <a
+                        href="https://www.instagram.com/rickygregorius/"
+                        target="_blank"
+                        className="transition-all hover:text-yellow-custom"
+                      >
+                        <i className="lab la-instagram text-3xl"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </div>
 
