@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <div className="container relative m-auto flex h-screen flex-col flex-wrap items-center justify-center gap-7 text-center md:gap-10">
-        <h1 className="font-bold leading-snug">
+        <h1 className="animate__animated animate__pulse animate__delay-2s	animate__infinite animate__slow font-bold leading-snug">
           Hey there 👋
           <br />I am Gregorius
         </h1>

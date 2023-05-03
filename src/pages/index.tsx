@@ -6,6 +6,7 @@ import Home from "../../components/pages/Home";
 import About from "../../components/pages/About";
 import Contact from "../../components/pages/Contact";
 import Portofolios from "../../components/pages/Portofolios";
+import "animate.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
