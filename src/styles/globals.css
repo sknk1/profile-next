@@ -42,6 +42,16 @@
 }
 
 @layer components {
+  ::-moz-selection { /* Code for Firefox */
+    /* background: @apply bg-yellow-custom; */
+    @apply bg-yellow-custom text-black;
+  }
+  
+  ::selection {
+    /* background: @apply bg-yellow-custom; */
+    @apply bg-yellow-custom text-black;
+  }
+
   .profile-image {
     width: 230px !important;
     height: 230px !important;
